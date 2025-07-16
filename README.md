@@ -46,11 +46,11 @@ Each task is organized in a separate branch for clarity and clean project manage
 - **Machine Learning:** scikit-learn
 - **Environment:** Jupyter Notebook
   
-About Oasis Infobyte
+About Oasis Infobyte:
 Oasis Infobyte is a leading virtual internship and training platform that provides students with practical exposure in the domains of Data Science, Machine Learning, Web Development, and more to bridge academic knowledge with industry expectations.
 
 
-About Me
+About Me:
 I am an aspiring data science and machine learning professional passionate about building solutions that drive insights and value. This internship enhanced my understanding of supervised learning models, data analysis workflows, and real-world project implementation.
 
 Name: Sampada Kabule
