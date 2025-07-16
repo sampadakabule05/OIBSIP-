@@ -1,26 +1,33 @@
-# Iris Flower Classification
+# Email Spam Detection
 
-## Problem Statement
+## Overview
 
-Classify iris flowers into Setosa, Versicolor, or Virginica species based on sepal and petal measurements.
+This project uses **Machine Learning** to classify emails as **spam or not spam** based on their text content. It is part of my **Oasis Infobyte Data Science Internship** to implement practical NLP classification models.
 
-## Approach
+## Dataset
 
-- Used the Iris dataset with SepalLength, SepalWidth, PetalLength, PetalWidth as features.
-- Applied Random Forest Classifier from scikit-learn.
-- Achieved accuracy of around 95-100%.
+- **Source:** Kaggle SMS Spam Collection Dataset
+- Contains labelled SMS messages as 'spam' or 'ham' (not spam).
 
-## Files
+## Technologies Used
 
-- `iris_classification.ipynb`: Jupyter notebook with full code.
-- `Iris.csv`: Dataset file.
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Natural Language Processing (CountVectorizer, TfidfVectorizer)
+- Naive Bayes Classifier
+- Jupyter Notebook
 
-## How to Run
+## Task Workflow
 
-1. Open `iris_classification.ipynb` in Jupyter Notebook.
-2. Run all cells step by step.
-3. Ensure required libraries are installed (pandas, numpy, scikit-learn, matplotlib, seaborn, joblib).
+1. Load and explore dataset
+2. Preprocess text data
+3. Vectorize using CountVectorizer/TfidfVectorizer
+4. Train Naive Bayes classifier
+5. Evaluate using accuracy and classification report
+6. Save the model with joblib
 
-## Conclusion
+## Installation
 
-Successfully classified iris flowers using Machine Learning with high accuracy as part of Oasis Infobyte internship task.
+```bash
+pip install pandas numpy scikit-learn joblib
