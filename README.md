@@ -1,33 +1,33 @@
-# Email Spam Detection
+# Sales Prediction
 
 ## Overview
 
-This project uses **Machine Learning** to classify emails as **spam or not spam** based on their text content. It is part of my **Oasis Infobyte Data Science Internship** to implement practical NLP classification models.
+This project predicts **sales figures** based on advertising data using **Machine Learning regression models**. It is part of my **Oasis Infobyte Data Science Internship** to implement predictive analytics in business datasets.
 
 ## Dataset
 
-- **Source:** Kaggle SMS Spam Collection Dataset
-- Contains labelled SMS messages as 'spam' or 'ham' (not spam).
+- **Source:** Standard advertising and sales dataset from Kaggle or UCI.
+- Contains features such as **TV, Radio, Newspaper advertising spend** and **Sales**.
 
 ## Technologies Used
 
 - Python
 - Pandas, NumPy
 - Scikit-learn
-- Natural Language Processing (CountVectorizer, TfidfVectorizer)
-- Naive Bayes Classifier
+- Linear Regression, Decision Tree Regression
 - Jupyter Notebook
 
 ## Task Workflow
 
 1. Load and explore dataset
-2. Preprocess text data
-3. Vectorize using CountVectorizer/TfidfVectorizer
-4. Train Naive Bayes classifier
-5. Evaluate using accuracy and classification report
-6. Save the model with joblib
+2. Perform data cleaning if required
+3. Visualize features vs sales
+4. Train regression models (Linear, Decision Tree)
+5. Evaluate using R2 Score and Mean Squared Error
+6. Predict sales based on input features
+7. Save trained model using joblib
 
 ## Installation
 
 ```bash
-pip install pandas numpy scikit-learn joblib
+pip install pandas numpy scikit-learn joblib matplotlib seaborn
