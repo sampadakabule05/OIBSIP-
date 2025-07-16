@@ -1,4 +1,5 @@
 # OIBSIP-
+
 # Oasis Infobyte Internship Tasks
 
 ## Overview
@@ -9,31 +10,19 @@ This repository contains all the tasks completed as part of my **Oasis Infobyte 
 
 ### Tasks Included
 
-Each task is organized in a separate branch for clarity:
+Each task is organized in a separate branch:
 
-1. **Iris Flower Classification**  
-   Classification of iris species based on sepal and petal measurements.
+1. **Iris Flower Classification (Machine Learning)**  
+   Classify iris species based on sepal and petal measurements.
 
-2. **Email Spam Detection**  
-   Using NLP techniques to classify emails as spam or not spam.
+2. **Email Spam Detection (Machine Learning)**  
+   Classify emails as spam or not spam using NLP and ML techniques.
 
-3. **Unemployment Analysis**  
-   Analyzing unemployment data to derive insights and visualizations.
+3. **Unemployment Analysis (Python)**  
+   Analyze unemployment data to derive insights and create visualizations.
 
----
+4. **Car Price Prediction (Machine Learning)**  
+   Predict car prices based on various features using regression models.
 
-### Technologies Used
+5. **Sales Prediction (Python)**  
 
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
-- Jupyter Notebook
-
----
-
-### How to Access Each Task
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/oasis-infobyte-internship.git
