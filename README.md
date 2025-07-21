@@ -22,9 +22,6 @@ Build a machine learning model to predict car prices based on features like year
 - Input: Year=2015, Mileage=25000, EngineSize=1.5  
 - Output: Predicted car price (in rupees)
 
-## Results
-- Mean Squared Error: *[Your Output]*
-- R2 Score: *[Your Output]*
 
 ## Files
 - car_price_prediction.ipynb: Jupyter notebook with code and outputs
