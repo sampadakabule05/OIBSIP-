@@ -1,33 +1,45 @@
-# Sales Prediction
+# Car Price Prediction – Oasis Infobyte
 
-## Overview
-
-This project predicts **sales figures** based on advertising data using **Machine Learning regression models**. It is part of my **Oasis Infobyte Data Science Internship** to implement predictive analytics in business datasets.
-
-## Dataset
-
-- **Source:** Standard advertising and sales dataset from Kaggle or UCI.
-- Contains features such as **TV, Radio, Newspaper advertising spend** and **Sales**.
+## Objective
+Build a machine learning model to predict car prices based on features like year, mileage, and engine size.
 
 ## Technologies Used
-
 - Python
-- Pandas, NumPy
-- Scikit-learn
-- Linear Regression, Decision Tree Regression
-- Jupyter Notebook
+- pandas
+- scikit-learn (Linear Regression)
 
-## Task Workflow
+## Steps Performed
+1. Imported necessary libraries
+2. Loaded or created car dataset (Year, Mileage, EngineSize, Price)
+3. Split data into features and target
+4. Performed train-test split
+5. Trained Linear Regression model
+6. Predicted car prices on test data
+7. Evaluated model using Mean Squared Error and R2 Score
+8. Predicted car price for a single new sample
 
-1. Load and explore dataset
-2. Perform data cleaning if required
-3. Visualize features vs sales
-4. Train regression models (Linear, Decision Tree)
-5. Evaluate using R2 Score and Mean Squared Error
-6. Predict sales based on input features
-7. Save trained model using joblib
+## Sample Prediction
+- Input: Year=2015, Mileage=25000, EngineSize=1.5  
+- Output: Predicted car price (in rupees)
 
-## Installation
+## Results
+- Mean Squared Error: *[Your Output]*
+- R2 Score: *[Your Output]*
 
-```bash
-pip install pandas numpy scikit-learn joblib matplotlib seaborn
+## Files
+- car_price_prediction.ipynb: Jupyter notebook with code and outputs
+
+## How to Run
+1. Clone the repository or download files
+2. Install required packages:
+    ```
+    pip install pandas scikit-learn
+    ```
+3. Run the notebook in Jupyter or Google Colab
+
+## Task Details
+- Task Name: Car Price Prediction
+- Internship: Oasis Infobyte Data Science Internship
+- Submitted by: Sampada Kabule
+
+
