@@ -1,44 +1,35 @@
-# Car Price Prediction – Oasis Infobyte
+# Unemployment Analysis – Oasis Infobyte
 
 ## Objective
-Build a machine learning model to predict car prices based on features like year, mileage, and engine size.
+Analyze unemployment rates across different states using Python data analysis and visualization libraries.
 
 ## Technologies Used
 - Python
 - pandas
-- scikit-learn (Linear Regression)
+- matplotlib
+- seaborn
 
 ## Steps Performed
-1. Imported necessary libraries
-2. Loaded or created car dataset (Year, Mileage, EngineSize, Price)
-3. Split data into features and target
-4. Performed train-test split
-5. Trained Linear Regression model
-6. Predicted car prices on test data
-7. Evaluated model using Mean Squared Error and R2 Score
-8. Predicted car price for a single new sample
-
-## Sample Prediction
-- Input: Year=2015, Mileage=25000, EngineSize=1.5  
-- Output: Predicted car price (in rupees)
+1. Imported dataset and performed data cleaning
+2. Displayed basic dataset information and descriptive statistics
+3. Visualized unemployment rate per state using bar plot and pie chart
 
 ## Results
-- Mean Squared Error: *[Your Output]*
-- R2 Score: *[Your Output]*
+Provided clear visualization and insights into state-wise unemployment rates.
 
 ## Files
-- car_price_prediction.ipynb: Jupyter notebook with code and outputs
+- unemployment_analysis.ipynb: Jupyter notebook with code and outputs
 
 ## How to Run
 1. Clone the repository or download files
 2. Install required packages:
     ```
-    pip install pandas scikit-learn
+    pip install pandas matplotlib seaborn
     ```
 3. Run the notebook in Jupyter or Google Colab
 
 ## Task Details
-- Task Name: Car Price Prediction
+- Task Name: Unemployment Analysis
 - Internship: Oasis Infobyte Data Science Internship
 - Submitted by: Sampada Kabule
 
